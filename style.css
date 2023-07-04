@@ -47,33 +47,7 @@ span{
   color: midnightblue;
 }
 
-@media (min-width: 319px) and (max-width: 480px) {
-  body{
-    margin: 10px;
-  }
-  h1{
-    text-align: center;
-    width: 330px;
-    font-size: 2rem;
-    padding-top: 0;
-   }
-   .logo{
-    width: 100px;
-   }
-   .card img{
-    width: 350px;
-    height: 210px;
-   }
-   img, .left, .right{
-    float: none;
-   }
-   p{
-    width: 350px;
-    font-size: 0.9rem;
-   }
-
-}
-@media (min-width: 481px) and (max-width: 1200px){
+@media (max-width: 680px){
  h1{
   text-align: center;
   width: 520px;
